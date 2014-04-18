@@ -21,3 +21,16 @@
 *.i*86
 *.x86_64
 *.hex
+
+# LKM
+*.order
+*.symvers
+*.mod.*
+.*.o.cmd
+.*.ko.cmd
+*.mod
+
+# Misc
+*~
+\#*#
+.DS_Store
