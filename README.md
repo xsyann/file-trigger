@@ -10,5 +10,7 @@ Pseudo filesystem, compatible with the Linux Kernel VFS, using a loadable module
     make load
     mount | grep ftriggerfs
     cat /proc/filesystems
+    cat /proc/mounts
+    stat -f /tmp/test
     stat /tmp/test
     make unload
